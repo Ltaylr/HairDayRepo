@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(205, 245, 232);
+    max-width: 65rem;
+    min-width: 45rem;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+#top-banner{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+header > img{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#top-banner-logo{
+    width: 40rem;
+    margin-bottom: 3rem;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    
+    margin: .5rem;
+}
+.navi-bar ul{
+    list-style-type: none;
+    text-align: center;
+}
+.navi-elem{
+    display: inline-block;
+}
+#ar1{
+    background-size: 100% 100%;
+    background-image: url('../images/young-woman-getting-hair-shampooed-at-salon.jpg');
+}
+footer{
+    margin-top: 10rem;
+    display: flex;
+}
+footer div{
+    flex: 1;
+}
+.footer-img{
+    width: 9rem;
+    
+}
+section{
+    display: flex;
+}
+article{
+    flex:1;
+    margin: 1rem;
+    
+    
+}
+.body-container{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "footet footer footer footer"
+    ;
+
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "section1 section1 section1"
+    "section2 section2 section2"
+    ;
+}
+#main article{
+    flex:1;
+    margin: 1rem;
+    min-width: 18rem;
+    
+}
+nav a:link, a:visited{
+    background-color: rgb(213, 240, 170);
+    color: rgb(194, 17, 76);
+    padding: .5rem 4rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: .8rem;
+    border: 1px solid;
+}
