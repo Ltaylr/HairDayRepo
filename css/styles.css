@@ -1,11 +1,33 @@
 body{
-    background-color: rgb(205, 245, 232);
-    max-width: 65rem;
-    min-width: 45rem;
-    width: 50%;
+    background-color: rgb(25, 31, 36);
+    max-width: 100rem;
+    min-width: 10rem;
+    width: 80%;
     margin-left:auto;
     margin-right:auto;
     
+    
+}
+a{
+    display: inline-block;
+    min-width: 10rem;
+    line-height: 2.3rem;
+    
+}
+nav a:link, a:visited{
+    background-color: none;
+    color: rgb(65, 39, 48);
+    text-decoration: none;
+    border-radius: .8rem;
+    border: 3px solid;
+    font-size: 1.6em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+    
+}
+nav a:hover{
+    
+    color: rgb(245, 73, 130);
 }
 #top-banner{
     text-align: center;
@@ -17,27 +39,24 @@ header > img{
     margin-right:auto;
 }
 #top-banner-logo{
-    width: 40rem;
+    max-width: 100%;
+    max-height: 18rem;
     margin-bottom: 3rem;
+
 }
-nav{
-    text-align: center;
-}
-nav a{
-    
-    margin: .5rem;
-}
+
+
 .navi-bar ul{
     list-style-type: none;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    justify-items: center;
 }
-.navi-elem{
-    display: inline-block;
-}
-#ar1{
-    background-size: 100% 100%;
-    background-image: url('../images/young-woman-getting-hair-shampooed-at-salon.jpg');
-}
+
+
 footer{
     margin-top: 10rem;
     display: flex;
@@ -51,26 +70,33 @@ footer div{
 }
 section{
     display: flex;
+    
 }
 article{
-    flex:1;
-    margin: 1rem;
+    color:rgba(208,96,76,255);
+    
+}
+article img{
+    width: 20rem;
+    
+}
+#main
+{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+    gap: 4em;
     
     
 }
 #main article{
-    flex:1;
+    display: flex;
     margin: 1rem;
-    min-width: 18rem;
+    width: 15rem;
+    height: 15rem;
+    flex-wrap: wrap;
     
-}
-nav a:link, a:visited{
-    background-color: rgb(213, 240, 170);
-    color: rgb(194, 17, 76);
-    padding: .5rem 4rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: .8rem;
-    border: 1px solid;
+    
 }
