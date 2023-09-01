@@ -58,26 +58,6 @@ article{
     
     
 }
-.body-container{
-    display: grid;
-    grid-template-columns: repeat(4, 50px);
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "header header header header"
-    "main main main main"
-    "footet footer footer footer"
-    ;
-
-}
-.main-container{
-    display: grid;
-    grid-template-columns: repeat(4, 50px);
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "section1 section1 section1"
-    "section2 section2 section2"
-    ;
-}
 #main article{
     flex:1;
     margin: 1rem;
