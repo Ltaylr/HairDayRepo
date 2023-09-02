@@ -28,22 +28,25 @@ nav a:link, a:visited{
     
     
 }
+#top{
+    justify-content: center;
+}
 #top article{
-    background-image: url('../images/desktop-1920x1080.jpg');
+    background-image: url('../images/glam_blonde.jpg');
     background-size: 100%;
     margin-bottom: 2rem;
     min-height: 20rem;
-    min-width: 40rem;
-    
-
+    max-width: 100rem;
+    min-width: 50rem;
 }
 #top article h1{
     margin-left: 3rem;
 }
 #top article p{
     margin-left: 2rem;
+    margin-right: 30rem;
     font-size: 1.8rem;
-    color: rgb(110, 141, 131);
+    color: rgb(175, 231, 164);
 }
 nav a:hover{
     
