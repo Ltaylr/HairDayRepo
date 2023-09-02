@@ -133,7 +133,7 @@ article p:hover{
     margin-left: 1.25rem;
 }
 #main article{
-    background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)), rgba(45,35,34,255);
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,1)), rgba(45,35,34,255);
     width: 24rem;
     height: 32rem;
     border-radius: .5rem;
