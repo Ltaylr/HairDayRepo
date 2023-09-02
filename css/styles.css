@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(24, 35, 44);
+    background-color: rgb(4, 11, 26);
     max-width: 100rem;
     min-width: 10rem;
     width: 80%;
@@ -18,8 +18,8 @@ h1{
     font-size: 3rem;
 }
 nav a:link, a:visited{
-    background-color: none;
-    color: rgb(138, 40, 74);
+    background-color:antiquewhite;
+    color: rgba(208,96,76,255);
     text-decoration: none;
     border-radius: .4rem;
     border: 3px solid;
@@ -27,6 +27,23 @@ nav a:link, a:visited{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
     
+}
+#top article{
+    background-image: url('../images/desktop-1920x1080.jpg');
+    background-size: 100%;
+    margin-bottom: 2rem;
+    min-height: 20rem;
+    min-width: 40rem;
+    
+
+}
+#top article h1{
+    margin-left: 3rem;
+}
+#top article p{
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    color: rgb(110, 141, 131);
 }
 nav a:hover{
     
