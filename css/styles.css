@@ -6,6 +6,8 @@ body{
     margin-left:auto;
     margin-right:auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('../images/nxNew2-1044300021.jpg');
+    background-size: 100%;
     
 }
 a{
@@ -38,6 +40,7 @@ nav a:link, a:visited{
     min-height: 20rem;
     max-width: 100rem;
     min-width: 50rem;
+    border-radius: 2rem;
 }
 #top article h1{
     margin-left: 3rem;
@@ -46,7 +49,7 @@ nav a:link, a:visited{
     margin-left: 2rem;
     margin-right: 30rem;
     font-size: 1.8rem;
-    color: rgb(175, 231, 164);
+    color: rgb(149, 155, 211);
 }
 nav a:hover{
     
@@ -80,8 +83,6 @@ article:hover{
     justify-content: space-evenly;
     justify-items: center;
 }
-
-
 footer{
     margin-top: 1rem;
     display: flex;
@@ -103,16 +104,11 @@ section{
 article{
     display: inline-block;
     color:rgba(208,96,76,255);
-    
-    
 }
 article img{
     margin-left: 1.25rem;
     width: 90%;
     justify-self: center;
-    
-    
-    
 }
 
 article p{
@@ -123,27 +119,24 @@ article p:hover{
 }
 #main
 {
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 4rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
     justify-content: space-between;
-    
-    
-    
 }
 #main h2{
     margin-left: 1.25rem;
 }
 #main article{
-    background-color: rgb(2, 46, 66);
-    display: flex;
+    background-color:rgba(45,35,34,255);
     width: 24rem;
-    height: 26rem;
-    flex-wrap: wrap;
-    border-radius: .5rem;;
-}
-#main  p{
-    margin-bottom: 1rem;
+    height: 32rem;
+    border-radius: .5rem;
+    
     
 }
+#main p{
+    margin-left: 1.25rem;
+}
+
